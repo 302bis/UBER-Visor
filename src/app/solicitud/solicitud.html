@@ -1,0 +1,206 @@
+<div ng-include="'app/components/menu/menu.html'"></div>
+
+<div class="container">
+  <h1>Juan Guzmán Acosta</h1>
+</div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" role="tabpanel">
+            <!-- Nav tabs -->
+            <ul class="nav nav-justified  text-center" id="nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="/perfil_form/#uno" aria-controls="uno" role="tab" data-toggle="tab">
+                        <div class="img"><i class="fa fa-industry  fa-5x" aria-hidden="true"></i></div>
+                        <span class="quote"><i class="fa fa-check" aria-hidden="true"></i></span>
+                    </a>
+                    <span>Perfil</span>
+                </li>
+                <li role="presentation">
+                    <a href="/perfil_form/#dos" aria-controls="dos" role="tab" data-toggle="tab">
+                        <div class="img"><i class="fa fa-car  fa-5x" aria-hidden="true"></i></div>
+                        <span class="quote red"><i class="fa fa-check"></i></span>
+                    </a>
+                    <span>Selecciona auto</span>
+                </li>
+                <li role="presentation">
+                    <a href="/perfil_form/#tres" aria-controls="tres" role="tab" data-toggle="tab">
+                        <div class="img"><i class="fa fa-calendar  fa-5x" aria-hidden="true"></i></div>
+                        <span class="quote"><i class="fa fa-hand-paper-o"></i></span>
+                    </a>
+                    <span>Agenda tu cita</span>
+                </li>
+                <li role="presentation">
+                    <a href="/perfil_form/#cinco" aria-controls="cinco" role="tab" data-toggle="tab">
+                        <div class="img"><i class="fa fa-tasks fa-5x" aria-hidden="true"></i></div>
+                        <span class="quote"><i class="fa fa-hand-paper-o"></i></span>
+                    </a>
+                    <span>Etapa Visor</span>
+                </li>
+                <li role="presentation">
+                    <a href="/perfil_form/#cinco" aria-controls="cinco" role="tab" data-toggle="tab">
+                        <div class="img"><i class="fa fa-wrench fa-5x" aria-hidden="true"></i></div>
+                        <span class="quote"><i class="fa fa-hand-paper-o"></i></span>
+                    </a>
+                    <span>Correcciones</span>
+                </li>
+                <li role="presentation">
+                    <a href="/perfil_form/#cinco" aria-controls="cinco" role="tab" data-toggle="tab">
+                        <div class="img"><i class="fa fa-handshake-o fa-5x" aria-hidden="true"></i></div>
+                        <span class="quote"><i class="fa fa-hand-paper-o"></i></span>
+                    </a>
+                    <span>Etapa Mutuo</span>
+                </li>
+                
+                <li role="presentation">
+                    <a href="/perfil_form/#seis" aria-controls="seis" role="tab" data-toggle="tab">
+                        <div class="img txt">11 </div>
+                        <span class="quote"><i class="fa fa-hand-paper-o"></i></span>
+                    </a>
+                    <span>Días restantes</span>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content" id="tabs-collapse">
+                <div role="tabpanel" class="tab-pane fade in active" id="uno">
+                    <div class="tab-inner">
+                        <p class="lead text-center">Llena todos los campos con los datos del representante legal y los de tu empresa</p>
+                        <br>
+                        <div ng-include="'app/solicitud/perfil.html'"></div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="dos">
+                    <div class="tab-inner">
+                        <p class="lead text-center">Para poder continuar con la solicitud del crédito, tienes que subir los siguientes documentos solicitados por el banco</p>
+                        <br>
+                        <div ng-include="'app/solicitud/upload.html'"></div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="tres">
+                    <div class="tab-inner">
+                        <p class="lead text-center">El banco ha solicitado que se efectúen las siguientes correcciones</p>
+                        <div ng-include="'app/solicitud/rev.html'"></div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="cinco">
+                    <div class="tab-inner">
+                        <div class="row">
+                             <div class="col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-xs-10 col-xs-offset-1 ">
+                                <h1 class="title-special">
+                                
+                                    Esta etapa tiene una duración estimada de 5 días hábiles
+                                </h1>
+
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-xs-12">
+                                <div class="draw">
+                                    <p class="num-days">15 <span>Días</span></p>
+                                    <img src="https://dev.visor.io/customer/images/img_visor/reloj-vectores.svg">
+                                </div>
+                            </div>
+
+                        </div>
+                            <div class="row">
+                                <br>
+                                <h1>
+                                    Conoce las herramientas que Visor te provee
+                                </h1>
+                                <br>
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            
+                                            <img class="img-thumbnail" src="https://dev.visor.io/customer/images/listo400.jpg">
+                                            <h2>Visor analíticos de facturas</h2>
+                                            <p>Es la plataforma que 
+                                                trabaja de la mano con tus sistemas para organizar información financiera.
+                                            </p>
+                                            <ul class="list-unstyled" style="line-height: 2">
+                                                <li><span class="fa fa-check text-success"></span> Evita desperdicio de tiempo en reconciliar diferentes versiones y fuentes de datos.</li>
+                                                <li><span class="fa fa-check text-success"></span> Reduce errores de captura y duplicados.</li>
+                                                <li><span class="fa fa-check text-success"></span> Optimiza la visibilidad de la información y uso de efectivo.</li>
+                                                <li><span class="fa fa-check text-success"></span> Provee información del negocio en tiempo real.</li>
+                                            </ul>
+                                            <span class="btn btn-primary btn-block">Leer más</span>
+                                        </div>
+
+                                    </div>
+                                
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            
+                                            <img class="img-thumbnail" src="https://dev.visor.io/customer/images/ventas400.jpg">
+                                            <h2>Visor proyección de ventas</h2>
+                                            <p>
+                                                Realiza la proyección de ventas de tu empresa y toma decisiones correctas a tiempo.
+                                            </p>
+                                            <span class="btn btn-primary btn-block">Leer más</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            <img class="img-thumbnail" src="https://dev.visor.io/customer/images/simulador400.jpg">
+                                            <h2>Visor simulador de crédito</h2>
+                                            <p>
+                                                Es una aplicación que te ayudará a gestionar de manera correcta todos tus créditos.
+                                            </p>
+                                            <span class="btn btn-primary btn-block">Leer más</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>  
+
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="seis">
+                    <div class="tab-inner text-center">
+                        <p class="lead"> Fusce erat libero, fermentum quis sollicitudin id, venenatis nec felis. Morbi sollicitudin gravida finibus.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div>
+                    <iframe width="100%" height="350" src=""></iframe>
+                </div>
+            </div>
+            <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+        </div>
+    </div>
+</div>
+<script>
+    function toggler(divId) {
+        $("#" + divId).toggle();
+    }
+</script>
+<script>
+      autoPlayYouTubeModal();
+
+  //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+  function autoPlayYouTubeModal() {
+      var trigger = $("body").find('[data-toggle="modal"]');
+      trigger.click(function () {
+          var theModal = $(this).data("target"),
+              videoSRC = $(this).attr("data-theVideo"),
+              videoSRCauto = videoSRC + "?autoplay=1";
+          $(theModal + ' iframe').attr('src', videoSRCauto);
+          $(theModal + ' button.close').click(function () {
+              $(theModal + ' iframe').attr('src', videoSRC);
+          });
+      });
+  }
+</script>

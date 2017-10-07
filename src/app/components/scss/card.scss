@@ -1,0 +1,46 @@
+/* Card component */
+.card{
+    height: 250px;
+    background: #fdfdfd;
+    position: relative;
+    
+}
+.card-primary, .card-default{
+
+}
+.card-image img{
+    margin: 0 auto;
+}
+.card-heading{
+padding: 10px;
+min-height: 40px;
+}
+.card-primary .card-heading{
+    background: #00a2f3;
+    color: #fff;
+}
+.card-title{
+    font-size: 18px;
+    padding: 0 20px;
+}
+.card-body{
+    padding: 15px;
+}
+.card-footer{
+    position: absolute;
+    bottom:0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.card-primary .card-footer {
+    background: #00a2f3;
+    color: #fff;
+}
+.card-default .card-footer {
+    background: #cdcdcd;
+    color: #fff;
+}
+.panel{
+    transition: 1s;
+}

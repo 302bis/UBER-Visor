@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="83px" viewBox="0 0 101 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-644.000000, -267.000000)" fill="#828282">
+            <g id="Group-8" transform="translate(644.000000, 267.000000)">
+                <g id="logo-noticias">
+                    <g id="Group">
+                        <g id="Vector">
+                            <g id="path135_fill-link" transform="translate(0.556000, 0.721000)">
+                                <path d="M87.5,12.5356 L87.5,0 L0,0 L0,68.9459 C0,68.9459 0,81.4815 12.5,81.4815 L90.625,81.4815 C90.625,81.4815 100,81.2872 100,68.9459 L100,12.5356 L87.5,12.5356 Z M12.5,75.2137 C6.25,75.2137 6.25,68.9459 6.25,68.9459 L6.25,6.26781 L81.25,6.26781 L81.25,68.9459 C81.25,71.8322 82.1375,73.8316 83.3625,75.2137 L12.5,75.2137 Z" id="path135_fill"></path>
+                            </g>
+                        </g>
+                        <g id="Vector" transform="translate(13.000000, 19.000000)">
+                            <g id="path136_fill-link" transform="translate(0.056000, 0.525000)">
+                                <polygon id="path136_fill" points="62.5 0 0 0 0 6.26781 62.5 6.26781"></polygon>
+                            </g>
+                        </g>
+                        <g id="Vector" transform="translate(47.000000, 57.000000)">
+                            <g id="path137_fill-link" transform="translate(0.431000, 0.132000)">
+                                <polygon id="path137_fill" points="21.875 0 0 0 0 6.26781 21.875 6.26781"></polygon>
+                            </g>
+                        </g>
+                        <g id="Vector" transform="translate(47.000000, 44.000000)">
+                            <g id="path138_fill-link" transform="translate(0.431000, 0.596000)">
+                                <polygon id="path138_fill" points="28.125 0 0 0 0 6.26781 28.125 6.26781"></polygon>
+                            </g>
+                        </g>
+                        <g id="Vector" transform="translate(47.000000, 32.000000)">
+                            <g id="path138_fill-link" transform="translate(0.431000, 0.060000)">
+                                <polygon id="path138_fill" points="28.125 0 0 0 0 6.26781 28.125 6.26781"></polygon>
+                            </g>
+                        </g>
+                        <g id="Vector" transform="translate(13.000000, 32.000000)">
+                            <g id="path139_fill-link" transform="translate(0.056000, 0.060000)">
+                                <polygon id="path139_fill" points="28.125 0 0 0 0 31.339 28.125 31.339"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

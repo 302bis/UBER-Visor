@@ -1,0 +1,49 @@
+<br>
+<br>
+<br>
+<br>
+
+<div class="overlay solo-page text-center" id="overlay">
+    <div class="container animated fadeInUp ">
+        <div class="hide-data-mails">
+                
+            <h1>juan.guzman31@hotmail.com</h1>
+            <h2>¿Éste es el mail con el que estás registrado en UBER?</h2>
+            
+            <br>
+            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 col-md-2 col-md-offset-4">
+                <a href="https://auth.uber.com/login/?next_url=https%3A%2F%2Fpartners.uber.com" class="btn btn-success btn-block">Si</a>
+                <br>
+            </div>
+            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 col-md-2 col-md-offset-0">
+                <div id="toggle" class="btn btn-default btn-block">No</div>
+                <br>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <br>
+            <div id="demo" style="display: none" class="toggle">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Por favor escribe cual es el mail con el que te registraste</h2>
+
+                    <div class="col-md-6 col-md-offset-3">
+                            <div class="form-group">
+                                    <input placeholder="Mail con el que te registraste en UBER" type="text" class="form-control input-lg" id="usr">
+                                </div>
+                                <a href="https://auth.uber.com/login/?next_url=https%3A%2F%2Fpartners.uber.com" class="btn btn-success btn-block">Conectar</a>
+                    </div>
+                    
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<script>
+    $('#toggle').click(function() {
+        $('.toggle').toggleClass('red animated fadeInUp');
+    });
+    $('#toggle').click(function() {
+        $('.hide-data-mails').toggleClass('blue ');
+    });
+</script>

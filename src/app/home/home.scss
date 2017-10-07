@@ -1,0 +1,33 @@
+.box {          
+  width: 250px;
+  height: 100px;    
+  border: 1px #000 solid;
+  }
+
+  .red {
+  display: block !important;
+  }
+
+  .blue {
+  display: none;
+}
+@media only screen and (max-width : 768px){
+  .solo-page h1{
+    font-size: 20px !important;
+    background: #efefef;
+    border:1px solid #cdcdcd;
+    border-radius: 5px;
+    padding: 20px 0;
+  }
+  .solo-page h2{
+    font-size: 26px !important; 
+  }
+}
+@media only screen and (min-width : 769px) and (max-width : 992px){
+  .solo-page h1{
+    font-size: 26px !important;
+  }
+}
+@media only screen and (min-width : 993px) and (max-width : 1200px){
+
+}

@@ -1,0 +1,49 @@
+h1, .h1 {
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+h2, .h2 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+h2 small {
+  font-weight: 300;
+}
+h3{
+  font-weight: 300;
+}
+
+/* Container Middle component*/
+.container-middle{
+  width: 960px;
+  float: left;
+}
+
+@media(max-width:767px){
+  .container-middle{
+    width: 100%;
+    float: left;
+    background: red;
+  }
+}
+@media(min-width:768px){
+  .container-middle{
+    width: 660px;
+    float: left;
+
+  }
+}
+@media(min-width:992px){
+  .container-middle{
+    width: 710px;
+    float: left;
+  }
+}
+@media(min-width:1200px){
+  .container-middle{
+    width: 960px;
+    float: left;
+  }
+}
+
